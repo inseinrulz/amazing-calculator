@@ -4,6 +4,7 @@ public class IncredibleCalculator {
 
     public static void main(String[] args) {
         int total=0;
+        double total2=0;
         System.out.println("Selecciona la operación que prefieras realizar: ");
         System.out.println("1. Sumar");
         System.out.println("2. Restar");
@@ -39,7 +40,11 @@ public class IncredibleCalculator {
                     total=n1/n2;
                     System.out.println("El resultado de la división es: "+ total);
                     break;
-            case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+            case 5: // Dividir. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+                    double n1=leerEnteroEntrada();
+                    double n2=leerEnteroEntrada();
+                    total2=n1/n2;
+                    System.out.println("El resultado de la división es: "+ total);
                     break;
 
         }
