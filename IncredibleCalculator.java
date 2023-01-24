@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class IncredibleCalculator {
 
     public static void main(String[] args) {
-
+        int total=0;
         System.out.println("Selecciona la operación que prefieras realizar: ");
         System.out.println("1. Sumar");
         System.out.println("2. Restar");
@@ -16,6 +16,10 @@ public class IncredibleCalculator {
 
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+                    int n1=leerEnteroEntrada();
+                    int n2=leerEnteroEntrada();
+                    total=n1+n2;
+                    System.out.println("El resultado de la suma es: "+ total);
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
                     break;
