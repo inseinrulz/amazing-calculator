@@ -28,6 +28,10 @@ public class IncredibleCalculator {
                     System.out.println("El resultado de la resta es: "+ total);
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
+                    int n1=leerEnteroEntrada();
+                    int n2=leerEnteroEntrada();
+                    total=n1*n2;
+                    System.out.println("El resultado de la multiplicación es: "+ total);
                     break;
             case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
                     break;
