@@ -33,7 +33,11 @@ public class IncredibleCalculator {
                     total=n1*n2;
                     System.out.println("El resultado de la multiplicación es: "+ total);
                     break;
-            case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
+            case 4: // Dividir. Debes leer dos números enteros de entrada e imprimir su división entera.
+                    int n1=leerEnteroEntrada();
+                    int n2=leerEnteroEntrada();
+                    total=n1/n2;
+                    System.out.println("El resultado de la división es: "+ total);
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
                     break;
